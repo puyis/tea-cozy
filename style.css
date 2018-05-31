@@ -94,6 +94,7 @@ div {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   flex-wrap: wrap;
+  text-align: center;
 
 }
 
