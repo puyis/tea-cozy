@@ -7,16 +7,21 @@ header {
   color: white;
   flex-grow: 1;
    list-style-type: none;
+   flex-direction: row;
+   justify-content: space-between;
  }
 
 
 
  .logo  {
  padding-left: 10px;
+ align-items: left;
+ justify-content: left;
  }
 
  .nav_bar {
    float: right;
+   align-items: right;
  }
 
  ul {
@@ -33,7 +38,7 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    align-content: center;
+
 }
 
 .mission {
@@ -42,18 +47,15 @@ body {
   height: 700px;
   width: 1000px;
   border-bottom: 1px solid seashell;
-  align-content: center;
-  text-align: center;
+  align-items: center;
   justify-content: center;
   width: 100%;
 
-  overflow: auto;
 }
+
 .stripe {
-  align-content: center;
-  text-align: center;
-  justify-content: center;
   width: 100%;
+  background-color: black;
 }
 
 
@@ -72,10 +74,30 @@ img {
 .tea {
   text-align: center;
   justify-content: center;
+
 }
 
 .foto {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.second {
+
+}
+
+.featured {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  flex-wrap: wrap;
+
+}
+
+.area span {
+  background-color: black;
+  width: 300px;
+
+}
+
 }
