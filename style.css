@@ -43,7 +43,7 @@ body {
   border-bottom: 1px solid seashell;
   align-items: center;
   justify-content: center;
-  
+
 
 }
 
@@ -104,12 +104,10 @@ div {
 .end {
   text-align: center;
   height: 200px;
-}
-.end h6 {
   color: white;
 }
 
-h6 {
+.end p {
   color: white;
 }
 
